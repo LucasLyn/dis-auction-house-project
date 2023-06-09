@@ -15,9 +15,10 @@ Second table displays the current highest bid on each auction.
 Third and last table shows all bids made on an auction from other users.
 
 Currently, there are a few missing features;
-1. The rest of the site isn't utilized.
-2. The 'cd_account' number in the database has the dublicate constraint, which we are unsure of how to remove.
-3. The last column in the first table is currently empty. It should display the id of the currently highest bidder of each respective auction, but we could not get it to display. We have modified the 'vw_invest_accounts.sql' file so it should display the correct result, which is sadly doesn't. 
+1. The 'bank' folder is not renamed to something proper (messes with the already established modules).
+2. The rest of the site isn't utilized.
+3. The 'cd_account' number in the database has the dublicate constraint, which we are unsure of how to remove.
+4. The last column in the first table is currently empty. It should display the id of the currently highest bidder of each respective auction, but we could not get it to display. We have modified the 'vw_invest_accounts.sql' file so it should display the correct result, which is sadly doesn't. 
 
 
 ## Requirements:
@@ -45,6 +46,7 @@ Running the command with the file 'run_all_sql_files.sql' automatically runs the
 To run the project with Python, run either of the following commands;
 
 >$ python3 run.py
+
 >$ py run.py
 
 
